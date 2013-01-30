@@ -2,13 +2,6 @@ import calculator
 import mess
 from tkinter import *
 
-print("enter numders that you want to combine")
-so1 = input("first number")
-so2 = input("second number")
-cal = calculator.calculate(so1,so2)
-calcifer = cal.display()
-mess.mss(calcifer)
-
 done = True
 while done == True:
     print("enter numders that you want to combine")
